@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#969696</color>
+    <color name="list_publication_name_pos">#006496</color>
+    <color name="app_background">#f0f0f0</color>
+    <color name="button_background">#006699</color>
+    <color name="button_background_clicked">#3583aa</color> <!-- 3583aa -->
+    <color name="comments_background">#EDF1F3</color>
+    <color name="date_text_color">#b3b3b3</color>
+    <color name="devider">#CCCCCC</color>
+    <color name="list_publication_theme_text">#000000</color>
+    <color name="list_publication_time_and_part_text">#555555</color>
+    <color name="navigation_bar_background">#006699</color>
+    <color name="post_comment_view_background">#7f99a6</color>
+    
+    <color name="list_publication_vert_separator">#3385ad</color>
+
+    <!-- Named colors -->
+    <color name="RED">#FF0000</color>
+    <color name="BLUE">#006699</color>
+	<color name="WHITE">#FFF</color>
+	<color name="TRANSPARENT_GRAY">#55000000</color>
+
+</resources>

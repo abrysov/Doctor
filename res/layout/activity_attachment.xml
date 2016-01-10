@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top" >
+
+    <com.evs.doctor.view.NavigationBarView
+        android:id="@+id/view_navbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <com.evs.doctor.view.CachedImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/attachment_buttons_panel"
+        android:layout_below="@+id/view_navbar"
+        android:layout_centerInParent="true"
+        android:gravity="top|center_horizontal"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:id="@+id/attachement_gallery_container"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_above="@+id/attachment_buttons_panel"
+        android:layout_alignParentBottom="true"
+        android:background="@color/TRANSPARENT_GRAY"
+        android:paddingBottom="50dp"
+        android:visibility="visible" >
+
+        <com.evs.doctor.view.SlideGalleryView
+            android:id="@+id/attachment_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/gallery_border" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/attachment_buttons_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingTop="2dp" >
+
+        <Button
+            android:id="@+id/attachment_add"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/attachment_add" />
+
+        <Button
+            android:id="@+id/attachment_remove"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/attachment_remove" />
+    </LinearLayout>
+
+</RelativeLayout>

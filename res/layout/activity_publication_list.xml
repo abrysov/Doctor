@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/publicationPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+        
+        <FrameLayout
+            android:id="@+id/publication_create"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_selector_buttons" >
+
+            <ImageView
+                android:id="@+id/publication_iv_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_icon_plus" />
+
+            <Button
+                android:id="@+id/publication_create_button"
+                style="@style/Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="35dp"
+                android:clickable="false"
+                android:text="@string/create" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/BLUE" >
+
+            <Spinner
+                android:id="@+id/publication_filter"
+                style="@style/SpinnerDropBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="50dp" />
+
+            <View
+                android:id="@+id/publication_separator"
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="40dp"
+                android:background="@color/list_publication_vert_separator"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="50dp"
+                android:src="@drawable/bg_selector_btn_dropdown" />
+
+            <ImageButton
+                android:id="@+id/publication_ib_settings"
+                style="@style/Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/ic_icon_settings" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/pull_to_refresh_listview"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="#00000000"
+            android:listSelector="@android:color/transparent" />
+
+</LinearLayout>

@@ -1,0 +1,958 @@
+{
+    "token":"c3904ff3-ee93-4a6b-ba49-a10f00f915c3",
+    \n"publicationTypes":[
+        \n{
+            \n"id":2,
+            \n"title":"Статья",
+            \n"description":null,
+            \n"doctorCanCreate":false,
+            \n"doctorCanSelect":false,
+            \n"selectOrderIndex":0,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":6,
+            \n"title":"Блог",
+            \n"description":null,
+            \n"doctorCanCreate":false,
+            \n"doctorCanSelect":false,
+            \n"selectOrderIndex":0,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":7,
+            \n"title":"Все",
+            \n"description":null,
+            \n"doctorCanCreate":false,
+            \n"doctorCanSelect":false,
+            \n"selectOrderIndex":1,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":3,
+            \n"title":"Клиническая задача",
+            \n"description":"Клинические задачи, тесты, а также сложные случаи, где нужны консультация или совет",
+            \n"doctorCanCreate":true,
+            \n"doctorCanSelect":true,
+            \n"selectOrderIndex":3,
+            \n"specialtyRequired":true\n
+        },
+        \n{
+            \n"id":14,
+            \n"title":"Клинический опыт",
+            \n"description":"Редкие случаи, интересные наблюдения, необычные ситуации из личной практики",
+            \n"doctorCanCreate":true,
+            \n"doctorCanSelect":true,
+            \n"selectOrderIndex":4,
+            \n"specialtyRequired":true\n
+        },
+        \n{
+            \n"id":12,
+            \n"title":"Научная статья",
+            \n"description":"Научные статьи, исследования, обзоры, лекции, авторефераты. Оформление согласно ГОСТу",
+            \n"doctorCanCreate":true,
+            \n"doctorCanSelect":true,
+            \n"selectOrderIndex":5,
+            \n"specialtyRequired":true\n
+        },
+        \n{
+            \n"id":4,
+            \n"title":"Дискуссия",
+            \n"description":"Обсуждение проблем здравоохранения и Вашей работы, новости с других сайтов запрещены",
+            \n"doctorCanCreate":true,
+            \n"doctorCanSelect":true,
+            \n"selectOrderIndex":6,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":19,
+            \n"title":"Новость медицины",
+            \n"description":"Ваши комментарии к новостям с других сайтов, ссылка обязательна",
+            \n"doctorCanCreate":true,
+            \n"doctorCanSelect":true,
+            \n"selectOrderIndex":7,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":1,
+            \n"title":"От редакции",
+            \n"description":null,
+            \n"doctorCanCreate":false,
+            \n"doctorCanSelect":true,
+            \n"selectOrderIndex":9,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":13,
+            \n"title":"Отчет о конференции",
+            \n"description":null,
+            \n"doctorCanCreate":false,
+            \n"doctorCanSelect":false,
+            \n"selectOrderIndex":0,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":8,
+            \n"title":"Медицина и право",
+            \n"description":null,
+            \n"doctorCanCreate":false,
+            \n"doctorCanSelect":false,
+            \n"selectOrderIndex":0,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":15,
+            \n"title":"Пресс-релиз",
+            \n"description":"Новости компаний",
+            \n"doctorCanCreate":false,
+            \n"doctorCanSelect":true,
+            \n"selectOrderIndex":10,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":16,
+            \n"title":"Комментарии",
+            \n"description":"Комментарии, которые подымают публикацию в топ",
+            \n"doctorCanCreate":false,
+            \n"doctorCanSelect":false,
+            \n"selectOrderIndex":0,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":17,
+            \n"title":"Гости",
+            \n"description":"Пользователи, посетившие профиль врача",
+            \n"doctorCanCreate":false,
+            \n"doctorCanSelect":false,
+            \n"selectOrderIndex":0,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":18,
+            \n"title":"Новые врачи и организации",
+            \n"description":"Активации новых пользователей",
+            \n"doctorCanCreate":false,
+            \n"doctorCanSelect":false,
+            \n"selectOrderIndex":0,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":5,
+            \n"title":"Прочее",
+            \n"description":"Свободное общение, юмор, игры, вопросы по работе сайта, истории из жизни",
+            \n"doctorCanCreate":true,
+            \n"doctorCanSelect":true,
+            \n"selectOrderIndex":8,
+            \n"specialtyRequired":false\n
+        },
+        \n{
+            \n"id":20,
+            \n"title":"Вопрос врача",
+            \n"description":"Короткий лаконичный вопрос на медицинскую тематику",
+            \n"doctorCanCreate":true,
+            \n"doctorCanSelect":true,
+            \n"selectOrderIndex":2,
+            \n"specialtyRequired":false\n
+        }
+        \n
+    ],
+    \n"specialties":[
+        \n{
+            \n"id":1,
+            \n"name":"Авиационная и космическая медицина",
+            \n"addressToDoctor1":"Врач авиационно-космической медицины",
+            \n"addressToDoctor2":"Врача авиационно-космической медицины",
+            \n"addressToDoctor5":"Врачей авиационно-космической медицины",
+            \n" ":0\n
+        },
+        \n{
+            \n"id":89,
+            \n"name":"Акушерство, гинекология",
+            \n"addressToDoctor1":"Акушер-гинеколог",
+            \n"addressToDoctor2":"Акушер-гинеколога",
+            \n"addressToDoctor5":"Акушер-гинекологов",
+            \n"selectOrderIndex":1\n
+        },
+        \n{
+            \n"id":3,
+            \n"name":"Аллергология и иммунология",
+            \n"addressToDoctor1":"Аллерголог-иммунолог",
+            \n"addressToDoctor2":"Аллерголог-иммунолога",
+            \n"addressToDoctor5":"Аллерголог-иммунологов",
+            \n"selectOrderIndex":2\n
+        },
+        \n{
+            \n"id":82,
+            \n"name":"Амбулаторная хирургия",
+            \n"addressToDoctor1":"Амбулаторный хирург",
+            \n"addressToDoctor2":"Амбулаторных хирурга",
+            \n"addressToDoctor5":"Амбулаторных хирургов",
+            \n"selectOrderIndex":3\n
+        },
+        \n{
+            \n"id":4,
+            \n"name":"Анестезиология",
+            \n"addressToDoctor1":"Анестезиолог",
+            \n"addressToDoctor2":"Анестезиолога",
+            \n"addressToDoctor5":"Анестезиологов",
+            \n"selectOrderIndex":4\n
+        },
+        \n{
+            \n"id":92,
+            \n"name":"Бактериология ",
+            \n"addressToDoctor1":"Бактериолог",
+            \n"addressToDoctor2":"Бактериолога",
+            \n"addressToDoctor5":"Бактериологов",
+            \n"selectOrderIndex":5\n
+        },
+        \n{
+            \n"id":93,
+            \n"name":"Вирусология",
+            \n"addressToDoctor1":"Вирусолог",
+            \n"addressToDoctor2":"Вирусолога",
+            \n"addressToDoctor5":"Вирусологов",
+            \n"selectOrderIndex":6\n
+        },
+        \n{
+            \n"id":5,
+            \n"name":"Водолазная медицина",
+            \n"addressToDoctor1":"Врач водолазной медицины",
+            \n"addressToDoctor2":"Врача водолазной медицины",
+            \n"addressToDoctor5":"Врачей водолазной медицины",
+            \n"selectOrderIndex":7\n
+        },
+        \n{
+            \n"id":8,
+            \n"name":"Восстановительная медицина",
+            \n"addressToDoctor1":"Врач восстановительной медицины",
+            \n"addressToDoctor2":"Врача восстановительной медицины",
+            \n"addressToDoctor5":"Врачей восстановительной медицины",
+            \n"selectOrderIndex":8\n
+        },
+        \n{
+            \n"id":7,
+            \n"name":"Гастроэнтерология",
+            \n"addressToDoctor1":"Гастроэнтеролог",
+            \n"addressToDoctor2":"Гастроэнтеролога",
+            \n"addressToDoctor5":"Гастроэнтерологов",
+            \n"selectOrderIndex":9\n
+        },
+        \n{
+            \n"id":6,
+            \n"name":"Гематология",
+            \n"addressToDoctor1":"Гематолог",
+            \n"addressToDoctor2":"Гематолога",
+            \n"addressToDoctor5":"Гематологов",
+            \n"selectOrderIndex":10\n
+        },
+        \n{
+            \n"id":9,
+            \n"name":"Генетика",
+            \n"addressToDoctor1":"Генетик",
+            \n"addressToDoctor2":"Генетика",
+            \n"addressToDoctor5":"Генетиков",
+            \n"selectOrderIndex":11\n
+        },
+        \n{
+            \n"id":10,
+            \n"name":"Гепатология",
+            \n"addressToDoctor1":"Гепатолог",
+            \n"addressToDoctor2":"Гепатолога",
+            \n"addressToDoctor5":"Гепатологов",
+            \n"selectOrderIndex":12\n
+        },
+        \n{
+            \n"id":11,
+            \n"name":"Гериатрия",
+            \n"addressToDoctor1":"Гериатр",
+            \n"addressToDoctor2":"Гериатра",
+            \n"addressToDoctor5":"Гериатров",
+            \n"selectOrderIndex":13\n
+        },
+        \n{
+            \n"id":94,
+            \n"name":"Дезинфектология",
+            \n"addressToDoctor1":"Дезинфектолог",
+            \n"addressToDoctor2":"Дезинфектолога",
+            \n"addressToDoctor5":"Дезинфектологов",
+            \n"selectOrderIndex":14\n
+        },
+        \n{
+            \n"id":12,
+            \n"name":"Дерматовенерология",
+            \n"addressToDoctor1":"Дерматовенеролог",
+            \n"addressToDoctor2":"Дерматовенеролога",
+            \n"addressToDoctor5":"Дерматовенерологов",
+            \n"selectOrderIndex":15\n
+        },
+        \n{
+            \n"id":77,
+            \n"name":"Детская гинекология",
+            \n"addressToDoctor1":"Детский гинеколог",
+            \n"addressToDoctor2":"Детских гинеколога",
+            \n"addressToDoctor5":"Детских гинекологов",
+            \n"selectOrderIndex":16\n
+        },
+        \n{
+            \n"id":13,
+            \n"name":"Детская кардиология",
+            \n"addressToDoctor1":"Детский кардиолог",
+            \n"addressToDoctor2":"Детских кардиолога",
+            \n"addressToDoctor5":"Детских кардиологов",
+            \n"selectOrderIndex":17\n
+        },
+        \n{
+            \n"id":98,
+            \n"name":"Детская онкология",
+            \n"addressToDoctor1":"Детский онколог",
+            \n"addressToDoctor2":"Детских онколога",
+            \n"addressToDoctor5":"Детских онкологов",
+            \n"selectOrderIndex":18\n
+        },
+        \n{
+            \n"id":88,
+            \n"name":"Детская травматология и ортопедия",
+            \n"addressToDoctor1":"Детский травматолог-ортопед",
+            \n"addressToDoctor2":"Детских травматолог-ортопеда",
+            \n"addressToDoctor5":"Детских травматолог-ортопедов",
+            \n"selectOrderIndex":19\n
+        },
+        \n{
+            \n"id":99,
+            \n"name":"Детская урология-андрология",
+            \n"addressToDoctor1":"Детский уролог-андролог",
+            \n"addressToDoctor2":"Детских уролог-андролога",
+            \n"addressToDoctor5":"Детских уролог-андрологов",
+            \n"selectOrderIndex":20\n
+        },
+        \n{
+            \n"id":16,
+            \n"name":"Детская хирургия",
+            \n"addressToDoctor1":"Детский хирург",
+            \n"addressToDoctor2":"Детских хирурга",
+            \n"addressToDoctor5":"Детских хирургов",
+            \n"selectOrderIndex":21\n
+        },
+        \n{
+            \n"id":17,
+            \n"name":"Детская эндокринология",
+            \n"addressToDoctor1":"Детский эндокринолог",
+            \n"addressToDoctor2":"Детских эндокринолога",
+            \n"addressToDoctor5":"Детских эндокринологов",
+            \n"selectOrderIndex":22\n
+        },
+        \n{
+            \n"id":19,
+            \n"name":"Диетология",
+            \n"addressToDoctor1":"Диетолог",
+            \n"addressToDoctor2":"Диетолога",
+            \n"addressToDoctor5":"Диетологов",
+            \n"selectOrderIndex":23\n
+        },
+        \n{
+            \n"id":20,
+            \n"name":"Инфекционные заболевания",
+            \n"addressToDoctor1":"Инфекционист",
+            \n"addressToDoctor2":"Инфекциониста",
+            \n"addressToDoctor5":"Инфекционистов",
+            \n"selectOrderIndex":24\n
+        },
+        \n{
+            \n"id":21,
+            \n"name":"Кардиология",
+            \n"addressToDoctor1":"Кардиолог",
+            \n"addressToDoctor2":"Кардиолога",
+            \n"addressToDoctor5":"Кардиологов",
+            \n"selectOrderIndex":25\n
+        },
+        \n{
+            \n"id":22,
+            \n"name":"Кардиохирургия",
+            \n"addressToDoctor1":"Кардиохирург",
+            \n"addressToDoctor2":"Кардиохирурга",
+            \n"addressToDoctor5":"Кардиохирургов",
+            \n"selectOrderIndex":26\n
+        },
+        \n{
+            \n"id":23,
+            \n"name":"Клиническая лабораторная диагностика",
+            \n"addressToDoctor1":"Врач клинической лабораторной диагностики",
+            \n"addressToDoctor2":"Врача клинической лабораторной диагностики",
+            \n"addressToDoctor5":"Врачей клинической лабораторной диагностики",
+            \n"selectOrderIndex":27\n
+        },
+        \n{
+            \n"id":24,
+            \n"name":"Клиническая микология",
+            \n"addressToDoctor1":"Клинический миколог",
+            \n"addressToDoctor2":"Клинических миколога",
+            \n"addressToDoctor5":"Клинических микологов",
+            \n"selectOrderIndex":28\n
+        },
+        \n{
+            \n"id":25,
+            \n"name":"Клиническая фармакология",
+            \n"addressToDoctor1":"Клинический фармаколог",
+            \n"addressToDoctor2":"Клинических фармаколога",
+            \n"addressToDoctor5":"Клинических фармакологов",
+            \n"selectOrderIndex":29\n
+        },
+        \n{
+            \n"id":26,
+            \n"name":"Колопроктология",
+            \n"addressToDoctor1":"Колопроктолог",
+            \n"addressToDoctor2":"Колопроктолога",
+            \n"addressToDoctor5":"Колопроктологов",
+            \n"selectOrderIndex":30\n
+        },
+        \n{
+            \n"id":27,
+            \n"name":"Косметология",
+            \n"addressToDoctor1":"Косметолог",
+            \n"addressToDoctor2":"Косметолога",
+            \n"addressToDoctor5":"Косметологов",
+            \n"selectOrderIndex":31\n
+        },
+        \n{
+            \n"id":96,
+            \n"name":"Лабораторная генетика",
+            \n"addressToDoctor1":"Surgeon",
+            \n"addressToDoctor2":"Surgeon",
+            \n"addressToDoctor5":"Surgeon",
+            \n"selectOrderIndex":32\n
+        },
+        \n{
+            \n"id":95,
+            \n"name":"Лабораторная микология",
+            \n"addressToDoctor1":"Therapist",
+            \n"addressToDoctor2":"Therapist",
+            \n"addressToDoctor5":"Therapist",
+            \n"selectOrderIndex":33\n
+        },
+        \n{
+            \n"id":28,
+            \n"name":"Лечебная физкультура",
+            \n"addressToDoctor1":"Врач лечебной физкультуры",
+            \n"addressToDoctor2":"Врача лечебной физкультуры",
+            \n"addressToDoctor5":"Врачей лечебной физкультуры",
+            \n"selectOrderIndex":34\n
+        },
+        \n{
+            \n"id":29,
+            \n"name":"Лучевая диагностика",
+            \n"addressToDoctor1":"Врач лучевой диагностики",
+            \n"addressToDoctor2":"Врача лучевой диагностики",
+            \n"addressToDoctor5":"Врачей лучевой диагностики",
+            \n"selectOrderIndex":35\n
+        },
+        \n{
+            \n"id":84,
+            \n"name":"Маммология",
+            \n"addressToDoctor1":"Маммолог",
+            \n"addressToDoctor2":"Маммолога",
+            \n"addressToDoctor5":"Маммологов",
+            \n"selectOrderIndex":36\n
+        },
+        \n{
+            \n"id":30,
+            \n"name":"Мануальная терапия",
+            \n"addressToDoctor1":"Мануальный терапевт",
+            \n"addressToDoctor2":"Мануальный терапевта",
+            \n"addressToDoctor5":"Мануальный терапевтов",
+            \n"selectOrderIndex":37\n
+        },
+        \n{
+            \n"id":31,
+            \n"name":"Медико-социальная экспертиза",
+            \n"addressToDoctor1":"Врач медико-социальной экспертизы",
+            \n"addressToDoctor2":"Врача медико-социальной экспертизы",
+            \n"addressToDoctor5":"Врачей медико-социальной экспертизы",
+            \n"selectOrderIndex":38\n
+        },
+        \n{
+            \n"id":102,
+            \n"name":"Медицинская статистика",
+            \n"addressToDoctor1":"Врач-статистик",
+            \n"addressToDoctor2":"Врач-статистика",
+            \n"addressToDoctor5":"Врач-статистиков",
+            \n"selectOrderIndex":39\n
+        },
+        \n{
+            \n"id":32,
+            \n"name":"Неврология",
+            \n"addressToDoctor1":"Невролог",
+            \n"addressToDoctor2":"Невролога",
+            \n"addressToDoctor5":"Неврологов",
+            \n"selectOrderIndex":40\n
+        },
+        \n{
+            \n"id":33,
+            \n"name":"Нейрохирургия",
+            \n"addressToDoctor1":"Нейрохирург",
+            \n"addressToDoctor2":"Нейрохирурга",
+            \n"addressToDoctor5":"Нейрохирургов",
+            \n"selectOrderIndex":41\n
+        },
+        \n{
+            \n"id":83,
+            \n"name":"Неонатология",
+            \n"addressToDoctor1":"Неонатолог",
+            \n"addressToDoctor2":"Неонатолога",
+            \n"addressToDoctor5":"Неонатологов",
+            \n"selectOrderIndex":42\n
+        },
+        \n{
+            \n"id":34,
+            \n"name":"Нефрология",
+            \n"addressToDoctor1":"Нефролог",
+            \n"addressToDoctor2":"Нефролога",
+            \n"addressToDoctor5":"Нефрологов",
+            \n"selectOrderIndex":43\n
+        },
+        \n{
+            \n"id":35,
+            \n"name":"Общая врачебная практика",
+            \n"addressToDoctor1":"Врач общей практики",
+            \n"addressToDoctor2":"Врача общей практики",
+            \n"addressToDoctor5":"Врачей общей практики",
+            \n"selectOrderIndex":44\n
+        },
+        \n{
+            \n"id":36,
+            \n"name":"Онкология",
+            \n"addressToDoctor1":"Онколог",
+            \n"addressToDoctor2":"Онколога",
+            \n"addressToDoctor5":"Онкологов",
+            \n"selectOrderIndex":45\n
+        },
+        \n{
+            \n"id":37,
+            \n"name":"Организация здравоохранения",
+            \n"addressToDoctor1":"Организатор здравоохранения",
+            \n"addressToDoctor2":"Организатора здравоохранения",
+            \n"addressToDoctor5":"Организаторов здравоохранения",
+            \n"selectOrderIndex":46\n
+        },
+        \n{
+            \n"id":38,
+            \n"name":"Ортодонтия",
+            \n"addressToDoctor1":"Ортодонт",
+            \n"addressToDoctor2":"Ортодонта",
+            \n"addressToDoctor5":"Ортодонтов",
+            \n"selectOrderIndex":47\n
+        },
+        \n{
+            \n"id":39,
+            \n"name":"Оториноларингология",
+            \n"addressToDoctor1":"Оториноларинголог",
+            \n"addressToDoctor2":"Оториноларинголога",
+            \n"addressToDoctor5":"Оториноларингологов",
+            \n"selectOrderIndex":48\n
+        },
+        \n{
+            \n"id":40,
+            \n"name":"Офтальмология",
+            \n"addressToDoctor1":"Офтальмолог",
+            \n"addressToDoctor2":"Офтальмолога",
+            \n"addressToDoctor5":"Офтальмологов",
+            \n"selectOrderIndex":49\n
+        },
+        \n{
+            \n"id":97,
+            \n"name":"Паразитология",
+            \n"addressToDoctor1":"Pediatrician",
+            \n"addressToDoctor2":"Pediatrician",
+            \n"addressToDoctor5":"Pediatrician",
+            \n"selectOrderIndex":50\n
+        },
+        \n{
+            \n"id":41,
+            \n"name":"Патологическая анатомия",
+            \n"addressToDoctor1":"Патологоанатом",
+            \n"addressToDoctor2":"Патологоанатома",
+            \n"addressToDoctor5":"Патологоанатомов",
+            \n"selectOrderIndex":51\n
+        },
+        \n{
+            \n"id":42,
+            \n"name":"Педиатрия",
+            \n"addressToDoctor1":"Педиатр",
+            \n"addressToDoctor2":"Педиатра",
+            \n"addressToDoctor5":"Педиатров",
+            \n"selectOrderIndex":52\n
+        },
+        \n{
+            \n"id":43,
+            \n"name":"Пластическая хирургия",
+            \n"addressToDoctor1":"Пластический хирург",
+            \n"addressToDoctor2":"Пластических хирурга",
+            \n"addressToDoctor5":"Пластических хирургов",
+            \n"selectOrderIndex":53\n
+        },
+        \n{
+            \n"id":91,
+            \n"name":"Профилактическая медицина",
+            \n"addressToDoctor1":"Врач профилактической медицины",
+            \n"addressToDoctor2":"Врача профилактической медицины",
+            \n"addressToDoctor5":"Врачей профилактической медицины",
+            \n"selectOrderIndex":54\n
+        },
+        \n{
+            \n"id":44,
+            \n"name":"Профпатология",
+            \n"addressToDoctor1":"Профпатолог",
+            \n"addressToDoctor2":"Профпатолога",
+            \n"addressToDoctor5":"Профпатологов",
+            \n"selectOrderIndex":55\n
+        },
+        \n{
+            \n"id":45,
+            \n"name":"Психиатрия",
+            \n"addressToDoctor1":"Психиатр",
+            \n"addressToDoctor2":"Психиатра",
+            \n"addressToDoctor5":"Психиатров",
+            \n"selectOrderIndex":56\n
+        },
+        \n{
+            \n"id":46,
+            \n"name":"Психиатрия-наркология",
+            \n"addressToDoctor1":"Психиатр-нарколог",
+            \n"addressToDoctor2":"Психиатр-нарколога",
+            \n"addressToDoctor5":"Психиатр-наркологов",
+            \n"selectOrderIndex":57\n
+        },
+        \n{
+            \n"id":47,
+            \n"name":"Психотерапия",
+            \n"addressToDoctor1":"Психотерапевт",
+            \n"addressToDoctor2":"Психотерапевта",
+            \n"addressToDoctor5":"Психотерапевтов",
+            \n"selectOrderIndex":58\n
+        },
+        \n{
+            \n"id":48,
+            \n"name":"Пульмонология",
+            \n"addressToDoctor1":"Пульмонолог",
+            \n"addressToDoctor2":"Пульмонолога",
+            \n"addressToDoctor5":"Пульмонологов",
+            \n"selectOrderIndex":59\n
+        },
+        \n{
+            \n"id":49,
+            \n"name":"Радиология",
+            \n"addressToDoctor1":"Радиолог",
+            \n"addressToDoctor2":"Радиолога",
+            \n"addressToDoctor5":"Радиологов",
+            \n"selectOrderIndex":60\n
+        },
+        \n{
+            \n"id":101,
+            \n"name":"Радиотерапия",
+            \n"addressToDoctor1":"Радиотерапевт",
+            \n"addressToDoctor2":"Радиотерапевта",
+            \n"addressToDoctor5":"Радиотерапевтов",
+            \n"selectOrderIndex":61\n
+        },
+        \n{
+            \n"id":78,
+            \n"name":"Реаниматология",
+            \n"addressToDoctor1":"Реаниматолог",
+            \n"addressToDoctor2":"Реаниматолога",
+            \n"addressToDoctor5":"Реаниматологов",
+            \n"selectOrderIndex":62\n
+        },
+        \n{
+            \n"id":75,
+            \n"name":"Ревматология",
+            \n"addressToDoctor1":"Ревматолог",
+            \n"addressToDoctor2":"Ревматолога",
+            \n"addressToDoctor5":"Ревматологов",
+            \n"selectOrderIndex":63\n
+        },
+        \n{
+            \n"id":50,
+            \n"name":"Рентгенология",
+            \n"addressToDoctor1":"Рентгенолог",
+            \n"addressToDoctor2":"Рентгенолога",
+            \n"addressToDoctor5":"Рентгенологов",
+            \n"selectOrderIndex":64\n
+        },
+        \n{
+            \n"id":51,
+            \n"name":"Рентгенэндоваскулярные диагностика и лечение",
+            \n"addressToDoctor1":"Врач рентгенэндоваскулярных диагностики и лечения",
+            \n"addressToDoctor2":"Врача рентгенэндоваскулярных диагностики и лечения",
+            \n"addressToDoctor5":"Врачей рентгенэндоваскулярных диагностики и лечения",
+            \n"selectOrderIndex":65\n
+        },
+        \n{
+            \n"id":80,
+            \n"name":"Репродуктология",
+            \n"addressToDoctor1":"Репродуктолог",
+            \n"addressToDoctor2":"Репродуктолога",
+            \n"addressToDoctor5":"Репродуктологов",
+            \n"selectOrderIndex":66\n
+        },
+        \n{
+            \n"id":87,
+            \n"name":"Рефлексотерапия",
+            \n"addressToDoctor1":"Рефлексотерапевт",
+            \n"addressToDoctor2":"Рефлексотерапевта",
+            \n"addressToDoctor5":"Рефлексотерапевтов",
+            \n"selectOrderIndex":67\n
+        },
+        \n{
+            \n"id":90,
+            \n"name":"Санитария и гигиена",
+            \n"addressToDoctor1":"Санитарный врач",
+            \n"addressToDoctor2":"Санитарных врача",
+            \n"addressToDoctor5":"Санитарных врачей",
+            \n"selectOrderIndex":68\n
+        },
+        \n{
+            \n"id":52,
+            \n"name":"Сексология",
+            \n"addressToDoctor1":"Сексолог",
+            \n"addressToDoctor2":"Сексолога",
+            \n"addressToDoctor5":"Сексологов",
+            \n"selectOrderIndex":69\n
+        },
+        \n{
+            \n"id":53,
+            \n"name":"Сердечно-сосудистая хирургия",
+            \n"addressToDoctor1":"Сердечно-сосудистый хирург",
+            \n"addressToDoctor2":"Сердечно-сосудистых хирурга",
+            \n"addressToDoctor5":"Сердечно-сосудистых хирургов",
+            \n"selectOrderIndex":70\n
+        },
+        \n{
+            \n"id":54,
+            \n"name":"Скорая медицинская помощь",
+            \n"addressToDoctor1":"Врач скорой медицинской помощи",
+            \n"addressToDoctor2":"Врача скорой медицинской помощи",
+            \n"addressToDoctor5":"Врачей скорой медицинской помощи",
+            \n"selectOrderIndex":71\n
+        },
+        \n{
+            \n"id":79,
+            \n"name":"Спортивная медицина",
+            \n"addressToDoctor1":"Врач спортивной медицины",
+            \n"addressToDoctor2":"Врача спортивной медицины",
+            \n"addressToDoctor5":"Врачей спортивной медицины",
+            \n"selectOrderIndex":72\n
+        },
+        \n{
+            \n"id":55,
+            \n"name":"Стоматология",
+            \n"addressToDoctor1":"Стоматолог",
+            \n"addressToDoctor2":"Стоматолога",
+            \n"addressToDoctor5":"Стоматологов",
+            \n"selectOrderIndex":73\n
+        },
+        \n{
+            \n"id":56,
+            \n"name":"Стоматология детская",
+            \n"addressToDoctor1":"Детский стоматолог",
+            \n"addressToDoctor2":"Детских стоматолога",
+            \n"addressToDoctor5":"Детских стоматологов",
+            \n"selectOrderIndex":74\n
+        },
+        \n{
+            \n"id":57,
+            \n"name":"Стоматология ортопедическая",
+            \n"addressToDoctor1":"Стоматолог-ортопед",
+            \n"addressToDoctor2":"Стоматолог-ортопеда",
+            \n"addressToDoctor5":"Стоматолог-ортопедов",
+            \n"selectOrderIndex":75\n
+        },
+        \n{
+            \n"id":58,
+            \n"name":"Стоматология терапевтическая",
+            \n"addressToDoctor1":"Стоматолог-терапевт",
+            \n"addressToDoctor2":"Стоматолог-терапевта",
+            \n"addressToDoctor5":"Стоматолог-терапевтов",
+            \n"selectOrderIndex":76\n
+        },
+        \n{
+            \n"id":59,
+            \n"name":"Стоматология хирургическая",
+            \n"addressToDoctor1":"Стоматолог-хирург",
+            \n"addressToDoctor2":"Стоматолог-хирурга",
+            \n"addressToDoctor5":"Стоматолог-хирургов",
+            \n"selectOrderIndex":77\n
+        },
+        \n{
+            \n"id":85,
+            \n"name":"Судебно-медицинская экспертиза",
+            \n"addressToDoctor1":"Судебно-медицинский эксперт",
+            \n"addressToDoctor2":"Судебно-медицинских эксперта",
+            \n"addressToDoctor5":"Судебно-медицинских экспертов",
+            \n"selectOrderIndex":78\n
+        },
+        \n{
+            \n"id":103,
+            \n"name":"Судебно-психиатрическая экспертиза",
+            \n"addressToDoctor1":"Судебно-психиатрический эксперт",
+            \n"addressToDoctor2":"Судебно-психиатрических эксперта",
+            \n"addressToDoctor5":"Судебно-психиатрических экспертов",
+            \n"selectOrderIndex":79\n
+        },
+        \n{
+            \n"id":100,
+            \n"name":"Сурдология",
+            \n"addressToDoctor1":"Сурдолог",
+            \n"addressToDoctor2":"Сурдолога",
+            \n"addressToDoctor5":"Сурдологов",
+            \n"selectOrderIndex":80\n
+        },
+        \n{
+            \n"id":60,
+            \n"name":"Терапия",
+            \n"addressToDoctor1":"Терапевт",
+            \n"addressToDoctor2":"Терапевта",
+            \n"addressToDoctor5":"Терапевтов",
+            \n"selectOrderIndex":81\n
+        },
+        \n{
+            \n"id":86,
+            \n"name":"Токсикология",
+            \n"addressToDoctor1":"Токсиколог",
+            \n"addressToDoctor2":"Токсиколога",
+            \n"addressToDoctor5":"Токсикологов",
+            \n"selectOrderIndex":82\n
+        },
+        \n{
+            \n"id":61,
+            \n"name":"Торакальная хирургия",
+            \n"addressToDoctor1":"Торакальный хирург",
+            \n"addressToDoctor2":"Торакальных хирурга",
+            \n"addressToDoctor5":"Торакальных хирургов",
+            \n"selectOrderIndex":83\n
+        },
+        \n{
+            \n"id":62,
+            \n"name":"Травматология и ортопедия",
+            \n"addressToDoctor1":"Травматолог-ортопед",
+            \n"addressToDoctor2":"Травматолог-ортопеда",
+            \n"addressToDoctor5":"Травматолог-ортопедов",
+            \n"selectOrderIndex":84\n
+        },
+        \n{
+            \n"id":63,
+            \n"name":"Трансфузиология",
+            \n"addressToDoctor1":"Трансфузиолог",
+            \n"addressToDoctor2":"Трансфузиолога",
+            \n"addressToDoctor5":"Трансфузиологов",
+            \n"selectOrderIndex":85\n
+        },
+        \n{
+            \n"id":64,
+            \n"name":"Ультразвуковая диагностика",
+            \n"addressToDoctor1":"Врач ультразвуковой диагностики",
+            \n"addressToDoctor2":"Врача ультразвуковой диагностики",
+            \n"addressToDoctor5":"Врачей ультразвуковой диагностики",
+            \n"selectOrderIndex":86\n
+        },
+        \n{
+            \n"id":65,
+            \n"name":"Урология",
+            \n"addressToDoctor1":"Уролог",
+            \n"addressToDoctor2":"Уролога",
+            \n"addressToDoctor5":"Урологов",
+            \n"selectOrderIndex":87\n
+        },
+        \n{
+            \n"id":66,
+            \n"name":"Физиотерапия",
+            \n"addressToDoctor1":"Физиотерапевт",
+            \n"addressToDoctor2":"Физиотерапевта",
+            \n"addressToDoctor5":"Физиотерапевтов",
+            \n"selectOrderIndex":88\n
+        },
+        \n{
+            \n"id":67,
+            \n"name":"Фтизиатрия",
+            \n"addressToDoctor1":"Фтизиатр",
+            \n"addressToDoctor2":"Фтизиатра",
+            \n"addressToDoctor5":"Фтизиатров",
+            \n"selectOrderIndex":89\n
+        },
+        \n{
+            \n"id":68,
+            \n"name":"Функциональная диагностика",
+            \n"addressToDoctor1":"Врач функциональной диагностики",
+            \n"addressToDoctor2":"Врача функциональной диагностики",
+            \n"addressToDoctor5":"Врачей функциональной диагностики",
+            \n"selectOrderIndex":90\n
+        },
+        \n{
+            \n"id":69,
+            \n"name":"Хирургия",
+            \n"addressToDoctor1":"Хирург",
+            \n"addressToDoctor2":"Хирурга",
+            \n"addressToDoctor5":"Хирургов",
+            \n"selectOrderIndex":91\n
+        },
+        \n{
+            \n"id":70,
+            \n"name":"Челюстно-лицевая хирургия",
+            \n"addressToDoctor1":"Челюстно-лицевой хирург",
+            \n"addressToDoctor2":"Челюстно-лицевой хирурга",
+            \n"addressToDoctor5":"Челюстно-лицевой хирургов",
+            \n"selectOrderIndex":92\n
+        },
+        \n{
+            \n"id":81,
+            \n"name":"Эндокринная гинекология",
+            \n"addressToDoctor1":"Эндокринный гинеколог",
+            \n"addressToDoctor2":"Эндокринных гинеколога",
+            \n"addressToDoctor5":"Эндокринных гинекологов",
+            \n"selectOrderIndex":93\n
+        },
+        \n{
+            \n"id":71,
+            \n"name":"Эндокринная хирургия",
+            \n"addressToDoctor1":"Эндокринный хирург",
+            \n"addressToDoctor2":"Эндокринных хирурга",
+            \n"addressToDoctor5":"Эндокринных хирургов",
+            \n"selectOrderIndex":94\n
+        },
+        \n{
+            \n"id":72,
+            \n"name":"Эндокринология",
+            \n"addressToDoctor1":"Эндокринолог",
+            \n"addressToDoctor2":"Эндокринолога",
+            \n"addressToDoctor5":"Эндокринологов",
+            \n"selectOrderIndex":95\n
+        },
+        \n{
+            \n"id":73,
+            \n"name":"Эндоскопия",
+            \n"addressToDoctor1":"Эндоскопист",
+            \n"addressToDoctor2":"Эндоскописта",
+            \n"addressToDoctor5":"Эндоскопистов",
+            \n"selectOrderIndex":96\n
+        },
+        \n{
+            \n"id":74,
+            \n"name":"Эпидемиология",
+            \n"addressToDoctor1":"Эпидемиолог",
+            \n"addressToDoctor2":"Эпидемиолога",
+            \n"addressToDoctor5":"Эпидемиологов",
+            \n"selectOrderIndex":97\n
+        }
+        \n
+    ],
+    \n"doctor":{
+        \n"id":"003151042000222247087177046039245240252217192151",
+        \n"fullName":"Qq67567ljkljkl Имя 67896789",
+        \n"shortName":"Qq67567ljkljkl И.6.",
+        \n"primarySpecialtyId":1,
+        \n"profileLink":"http://doctoratwork.ru/Doctor/Profile/003151042000222247087177046039245240252217192151",
+        \n"money":"0 руб.",
+        \n"rating":0,
+        \n"smallAvatarLink":"http://img1.doctoratwork.ru/image/avatarq/003151042000222247087177046039245240252217192151",
+        \n"normalAvatarLink":"http://img1.doctoratwork.ru/image/avatar/003151042000222247087177046039245240252217192151"\n
+    },
+    \n"ratingPageId":311\n
+}

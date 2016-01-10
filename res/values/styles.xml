@@ -1,0 +1,81 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar" />
+
+    <style name="GroupTextViewTheme">
+        <item name="android:textColor">#170909</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DialogLight">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:textColor">#170909</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">@dimen/normal_text_size</item>
+    </style>
+
+    <style name="Panel">
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="ListItemText">
+        <item name="android:textColor">#170909</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textSize">@dimen/normal_text_size</item>
+    </style>
+
+    <style name="ErrorMessageText">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/RED</item>
+        <item name="android:textSize">@dimen/error_text_size</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">@color/button_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="BigButton" parent="@style/Button">
+        <item name="android:textSize">@null</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="SpinnerDropBox">
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:background">@drawable/bg_selector_buttons</item> <!-- @drawable/bg_selector_buttons -->
+    </style>
+
+    <!-- Spinners -->
+    <style name="Theme.NoTitleBar.WithColoredSpinners" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerItem.DropDownItem</item>
+    </style>
+
+    <style name="SpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#00FF00</item>
+    </style>
+
+    <style name="SpinnerItem.DropDownItem" parent="@android:style/Widget.DropDownItem.Spinner">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <!-- end Spinners -->
+
+</resources>

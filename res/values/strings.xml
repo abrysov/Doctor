@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Доктор на  работе</string>
+    <string name="app_folder">DoctorAtWork</string>
+    <string name="title_activity_main">Главное окно</string>
+
+    <!-- Messages -->
+    <string name="text_loading">Загрузка данных&#8230;</string>
+    <string name="dialog_no_internet_title">Нет доступа в интернет</string>
+    <string name="error_no_internet_message">Пожадуйста, проверьте подключение!</string>
+    <string name="error_authorization">Ошибка авторизациию. Проверьте логин и пароль.</string>
+    <string name="dialog_error_title">Ошибка</string>
+    <string name="loading_comments">Комментарии загружаются...</string>
+	<string name="error_incorrect_server_response">Некорректый ответ сервера</string>
+
+    <!-- Labels & Buttons -->
+    <string name="text_username">Имя</string>
+    <string name="text_password">Пароль</string>
+    <string name="text_login">Войти</string>
+    <string name="menu">Меню</string>
+    <string name="create">Добавить</string>
+    <string name="read_more">Прочитать полностью</string>
+    <string name="hide_article">Свернуть</string>
+    <string name="profile">Мой профиль</string>
+    <string name="all_publications">Все публикации</string>
+    <string name="my_publications">Мои публикации</string>
+    <string name="money">Получите гонорар</string>
+    <string name="go_to_site">Перейти на сайт</string>
+    <string name="send">Отправить</string>
+    <string name="cancel">Отмена</string>
+    <string name="publication_list">Список публикаций</string>
+    <string name="attachment_add">Добавить</string>
+    <string name="attachment_remove">Удалить</string>
+    <string name="profile_raiting">Рейтинг: %1$s</string>
+    <string name="profile_wallet">Кошелек: %1$s</string>
+    <string name="profile_link">Ссылка на страницу с профилем: %1$s</string>
+    <string name="login_hint_name">емейл или имя</string>
+    <string name="login_hint_pass">пароль</string>
+    
+    <!-- Screen Publication View -->
+    <string name="update_comments">Обновить комментарии</string>
+    <string name="add_comment">Добавить</string>
+    <string name="leave_comment">Оставьте комментарий</string>
+    <string name="publication">Публикация</string>
+    <string name="publications">Публикации</string>
+    <string name="comments">Комментарии</string>
+
+    <!-- Time -->
+    <string name="just_now">Прямо сейчас</string>
+    <string name="today">Сегодня</string>
+    <string name="minutes">мин</string>
+    <string name="ago">назад</string>
+    <string name="hours">ч</string>
+    <string name="yesterday">Вчера</string>
+    <string name="at">в</string>
+
+    <!-- Create Publication -->
+    <string name="input_publication_title">Введите заголовок публикации</string>
+    <string name="input_publication_text">Введите текст публикации</string>
+    <string name="publication_create">Создать</string>
+    <string name="new_publication">Новая публикация</string>
+    <string name="attach_to_publication">Прикрепить к публикации</string>
+    <string name="choose_publication_type">Выберите тип публикации</string>
+    <string name="choose_speciality">Выберите специальность</string>
+    <string name="logout">Выйти</string>
+    <string name="web_page">Веб Страница</string>
+    <string name="comment_created">Коментарий успешно отправлен</string>
+    <string name="sending_publication">Публикация отправляется</string>
+    <string name="publication_sent">Публикация успешно отправлена</string>
+    <string name="error_incorrect_publication_id">Неправильный идентификатор публикации</string>
+    <string name="attachments">Вложения</string>
+    <string name="error_publications_isempty">Публикации не найдены!</string>
+    <string name="error_page_not_found">Страница не найдена</string>
+    <string name="publication_was_not_sent">Не удалось отправить публикацию</string>
+    <string name="wait">Подождите</string>
+    <string name="publications_are_being_loaded">Публикации загружаются</string>
+    
+
+</resources>

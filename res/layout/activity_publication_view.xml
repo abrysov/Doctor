@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background">
+
+    <com.evs.doctor.view.NavigationBarView
+        android:id="@+id/view_navbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:clickable="true" />
+
+    <ScrollView
+        android:id="@+id/publication_view_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_navbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/pub_view_main_padding"
+                android:background="@android:color/white">
+
+                <FrameLayout
+                    android:id="@+id/publication_view_content_arrow_holder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="@dimen/pub_view_padding_for_arrow"
+                    android:paddingBottom="@dimen/pub_view_padding_for_arrow"
+                    android:paddingTop="@dimen/pub_view_padding_for_arrow"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/publication_view_content_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_arrow_down_blue" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/publication_view_content_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/black"
+                    android:layout_toLeftOf="@+id/publication_view_content_arrow_holder"
+                    android:maxLines="4"
+                    android:singleLine="false"
+                    android:scrollHorizontally="false"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/publication_view_content_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/block_publication_view_content"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/publication_view_add_comment_rl"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="@dimen/pub_view_main_padding"
+                android:paddingRight="@dimen/pub_view_main_padding">
+
+                <TextView
+                    android:id="@+id/publication_comments_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/comments"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/publication_view_add_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/publication_view_arrow_holder"
+                    style="@style/Button"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/add_comment" />
+
+                <FrameLayout
+                    android:id="@+id/publication_view_arrow_holder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:id="@+id/publication_view_comment_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="@dimen/pub_view_padding_for_arrow"
+                        android:paddingTop="@dimen/pub_view_padding_for_arrow"
+                        android:paddingBottom="@dimen/pub_view_padding_for_arrow"
+                        android:src="@drawable/ic_icon_arrow_down_blue" />
+                </FrameLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="@dimen/pub_view_main_padding"
+                android:layout_marginLeft="@dimen/pub_view_main_padding"
+                android:background="@color/devider" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/block_publication_view_comments" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/publication_view_post_comment_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/block_publication_view_add_comment"
+        android:visibility="gone" />
+
+</RelativeLayout>

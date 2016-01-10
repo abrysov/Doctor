@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.evs.doctor.view.NavigationBarView
+        android:id="@+id/view_navbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/publication_create_ll2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/create_publication_new_publication_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:text="@string/new_publication"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/create_publication_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_selector_btn_dropdown" />
+
+            <Spinner
+                android:id="@+id/create_publication_speciality_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/bg_selector_btn_dropdown"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/create_publication_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="140"
+                android:layout_marginTop="4dp"
+                android:hint="@string/input_publication_title"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/create_publication_content"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:maxLength="4000"
+                android:gravity="top|left"
+                android:hint="@string/input_publication_text"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/publication_create_ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:padding="5dp"
+                android:id="@+id/create_publication_attach_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/BLUE"
+                android:drawableLeft="@drawable/ic_icon_attach"
+                android:visibility="invisible"
+                android:text="@string/attach_to_publication" />
+
+            <Button
+                android:id="@+id/create_publication_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                style="@style/BigButton"
+                android:visibility="invisible"
+                android:text="@string/publication_create" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

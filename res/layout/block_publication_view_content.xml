@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/pub_view_main_padding"
+        android:paddingRight="@dimen/pub_view_main_padding">
+
+        <TextView
+            android:id="@+id/publication_view_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/date_text_color"
+            android:textSize="@dimen/date_text_size"
+            android:textStyle="italic" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/publication_view_comments_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@drawable/ic_icon_comments_dialog" />
+
+            <TextView
+                android:id="@+id/publication_view_comments_counter_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="@color/devider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/pub_view_content_padding">
+
+        <WebView
+            android:id="@+id/publication_view_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.evs.doctor.view.SlideGalleryView
+            android:id="@+id/publication_images"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gallery_preview_height" 
+            android:padding="@dimen/gallery_border"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/publication_links"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

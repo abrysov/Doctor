@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Doctor</string>
+
+    <!-- Messages -->
+    <string name="text_loading">Data is loading  please wait!</string>
+    <string name="dialog_no_internet_title">No Internet</string>
+    <string name="error_no_internet_message">Could check  your internet connection!</string>
+    <string name="error_authorization">Authorization Error</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="loading_comments">Loading comments...</string>
+    <string name="error_incorrect_server_response">Incorrect server response</string>
+
+    <!-- Labels & Buttons -->
+    <string name="text_username">User Name</string>
+    <string name="text_password">Password</string>
+    <string name="text_login">Login</string>
+    <string name="menu">Menu</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="create">Create</string>
+    <string name="read_more">Read more</string>
+    <string name="hide_article">Hide article</string>
+    <string name="profile">Profile</string>
+    <string name="all_publications">All publications</string>
+    <string name="my_publications">My publications</string>
+    <string name="money">Get the money</string>
+    <string name="go_to_site">Go to Site</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="publication_list">Publications list</string>
+    <string name="attachment_add">Add</string>
+    <string name="attachment_remove">Remove</string>
+    <string name="profile_raiting">Rating: %1$s</string>
+    <string name="profile_wallet">Wallet: %1$s</string>
+    <string name="profile_link">Link: %1$s</string>
+    <string name="login_hint_name">e-mail or username</string>
+    <string name="login_hint_pass">password</string>
+
+    <!-- Screen Publication View -->
+    <string name="update_comments">Update comments</string>
+    <string name="add_comment">Add</string>
+    <string name="leave_comment">Leave a comment</string>
+    <string name="publication">Publication</string>
+    <string name="publications">Publications</string>
+    <string name="comments">Comments</string>
+
+    <!-- Time -->
+    <string name="just_now">Just now</string>
+    <string name="today">Today</string>
+    <string name="minutes">minute(s)</string>
+    <string name="ago">ago</string>
+    <string name="hours">hour(s)</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="at">at</string>
+
+    <!-- Create publication -->
+    <string name="input_publication_title">Publication title</string>
+    <string name="input_publication_text">Publication text</string>
+    <string name="publication_create">Create</string>
+    <string name="new_publication">New Publication</string>
+    <string name="attach_to_publication">Attach to publication</string>
+    <string name="choose_publication_type">Choose publication type</string>
+    <string name="choose_speciality">Сhoose speciality</string>
+    <string name="sending_publication">Uploading publication</string>
+    <string name="publication_sent">Publication has been sent</string>
+    <string name="publication_was_not_sent">Publication was not sent</string>
+    <string name="wait">Wait</string>
+    <string name="publications_are_being_loaded">Publications are being loaded</string>
+
+
+</resources>

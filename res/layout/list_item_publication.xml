@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="top" >
+
+            <com.evs.doctor.view.CachedImageView
+                android:id="@+id/li_publication_iv_ava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_launcher" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/li_publication_specialty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/list_publication_name_pos" />
+
+            <TextView
+                android:id="@+id/li_publication_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textColor="@color/list_publication_name_pos"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/li_publication_part"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/list_publication_time_and_part_text" />
+
+            <TextView
+                android:id="@+id/li_publication_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textColor="@color/list_publication_theme_text"
+                android:textStyle="bold" />
+
+            
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_icon_comments_dialog" />
+
+            <TextView
+                android:id="@+id/li_publication_tv_clouds_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="8dp"
+                android:text="0"
+                android:textColor="@color/app_background" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/li_publication_annotation"
+            android:layout_width="match_parent"
+            android:textColor="@color/list_publication_theme_text"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li_publication_time_readmore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/li_publication_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:textColor="@color/list_publication_time_and_part_text"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/li_publication_readmore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:text="@string/read_more"
+            android:textColor="@color/navigation_bar_background" />
+
+    </LinearLayout>
+
+</LinearLayout>

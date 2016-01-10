@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_padding">5dp</dimen>
+    <dimen name="button_text_size">15sp</dimen>
+    <dimen name="error_text_size">30sp</dimen>
+    <dimen name="date_text_size">12sp</dimen>
+    <dimen name="error_fields_text_size">20sp</dimen>
+    <dimen name="normal_text_size">15sp</dimen>
+    <dimen name="header_text_size">20sp</dimen>
+    <dimen name="text_padding">3dp</dimen>
+    <!-- Gallery -->
+    <dimen name="gallery_border">5dp</dimen>
+    <dimen name="gallery_preview_height">100dp</dimen>
+    <dimen name="captured_view_width">150dp</dimen>
+    <dimen name="captures_view_height">150dp</dimen>
+    <!-- Navigation Bar -->
+    <dimen name="nav_bar_margin_for_elements">8dp</dimen>
+    <!-- PublicationViewActivity -->
+    <dimen name="pub_view_padding_for_arrow">12dp</dimen>
+    <dimen name="pub_view_main_padding">16dp</dimen>
+    <dimen name="pub_view_content_padding">10dp</dimen>
+    <!-- LoginActivity -->
+    <dimen name="credentioal_area_size">220dp</dimen>
+    
+    <!-- ProfileActivity -->
+    <dimen name="profile_ava_max_size">200dp</dimen>
+
+</resources>
